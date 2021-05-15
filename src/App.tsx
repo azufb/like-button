@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import LikeButton from "./component/LikeButton"
 
-function App() {
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
