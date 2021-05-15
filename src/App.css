@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,4 +35,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+h3 {
+  color: black;
+}
+
+
+.likeButton {
+  background-color: rgb(231, 76, 60);
+  color: white;
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 4px solid darkgrey;
+  border-right: 2px solid darkgrey;
+  width: 150px;
+  height: auto;
+}
+
+.likeButton:active {
+  transform: translateY(5px);
+}
+
+.heart {
+  padding-right: 10px;
 }
